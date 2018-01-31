@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devise-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<title>Adidas</title>
+</head>
+<body>
+  
+	<header class="mainHeader">
+		  <nav class="navbar navbar-expand-lg navbar-light  mx-2">
+         <a class="navbar-brand" href="#"><img src="img/logo-adidas.png" alt="Adidas"></a>
+                      
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Men <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Women</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#">Kids</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Accessoires</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mainHeader__flexWrap d-flex justify-content-end position-absolute" >
+              <form class="mainHeader--searchForm form-inline ">
+              <button class="mainHeader--searchForm__button btn  my-2 my-sm-0" type="submit">
+                       <i class="fa fa-search"></i>
+              </button>
+              <input class="mainHeader--searchForm__input form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+            <section class="mainHeader--cart">
+              <i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
+              <span class="mainHeader--cart__itemsNubber">1</span>
+             
+            </section>
+            <button class="navbar-toggler " 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent"  
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+
+    </nav>
+	</header>
+  <main class="mainContent ">
+    
+    <img class="mainContent--girl  d-none  d-lg-block d-xl-block" width="528" height="915"  src="img/bg-girl.png">
+  
+  </main>
+
+
+
+    <template id="templateItem">
+          <div class=" templateWrap d-lg-flex align-items-end justify-content-between ">
+            <section class="itemWrap ">
+              <span class="itemStocks"></span>
+              <h2 class="colectionName "></h2>
+              <p class="description"></p>
+              <div class="itemImage" ></div>
+              <section class="aboutItem">
+                <p class="author"></p>
+                <h3 class="itemName"></h3>
+                <h3 class="itemPrice"></h3>
+                <div class="controllBtn">
+                  <a class="prevBtn" href="">
+                  
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="nextBtn" href="#" >
+                  
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+             </section>
+              
+              
+            </section>
+            
+            <form class="cartForm">
+              
+               <div class="itemSizeWrap">
+                 <select class="itemSize" type="text" name="size" >
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                 </select>
+               </div>
+               <div class="itemAviableWrap">
+                 <select class="itemAviable" type="number" name="number">
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                 </select> 
+               </div>
+               
+               <p class="sizeNotation"></p>
+               <div class="aboutDeliveryWrap">
+                  <a class="aboutDelivery" href="#">Delivery</a>>
+              </div>
+               <div class="aboutReturnWrap">
+                  <a class="aboutReturn" href="#">Return</a>
+                </div>
+              <button class="addCart" type="submit">Add to cart</button>
+              
+
+            </form>
+          </div>
+        
+        
+      </template>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	
+</body>
+</html>
+
