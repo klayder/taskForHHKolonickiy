@@ -1,0 +1,36 @@
+[
+    
+
+    {
+        "colectionName" : "New York Colorblock Tank",
+        "itemStocks"    : "New collection",
+        "description"   : "The relaxed hiking cultere of New York inspired Pharrell to create his Colorblock collection, a palyful blend of retro and modern outdoor design.",
+        "author"        : "Pharell Williams",
+        "itemName"      : "NY Colorblock Top",
+        "itemImage"     : "img/tshirt.png",
+        "price"         : "$299",
+        "sizeNotation"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur ex sint repellat voluptatem natus facere repudiandae molestiae quam saepe.",
+        "aviableSizes"  : {  
+            "xs"    :   2,
+            "s"     :   4,
+            "m"     :   3,
+            "l"     :   2
+        }
+    },
+    {
+        "colectionName" : "New York Colorblock Tank",
+        "itemStocks"    : "New collection",
+        "description"   : "The relaxed hiking cultere of New York inspired Pharrell to create his Colorblock collection, a palyful blend of retro and modern outdoor design.",
+        "author"        : "Pharell Williams",
+        "itemName"      : "NY Colorblock Top",
+        "itemImage"     : "img/tshirt.png",
+        "price"         : "$299",
+        "aviableSizes"  : {  
+            "xs"    :   2,
+            "s"     :   4,
+            "m"     :   3,
+            "l"     :   2
+        }
+    }
+    
+]
